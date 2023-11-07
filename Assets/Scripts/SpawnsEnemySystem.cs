@@ -6,7 +6,7 @@ public class SpawnsEnemySystem : MonoBehaviour
 {
     [SerializeField]
     private Transform[] randomTargetSpawn;
-    private int maxEnemyCount = 4;
+    private int maxEnemyCount = 30;
     [SerializeField]
     private GameObject enemyPrefab;
 
